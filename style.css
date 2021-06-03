@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+section {
+    width: 100%;
+    margin: auto;
+    background-color: #F7F8F9;
+
+}
+section .container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+    padding: 20px;
+    
+}
+form{
+    background-color: white;
+    padding: 2em; 
+    height: 59vh !important  
+  }
+
+  img{
+    height: 59vh !important;
+}
+
+  form h4{
+    text-align: center;
+ margin-top: 0em;
+    font-size: 0.9em;
+    color:#FD5656 ;
+  }
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.1em;
+    font-size: 0.6em;
+    margin-right: 1em;
+
+    
+}
+.fa{
+    margin-right: 0.5em;
+    font-size: 0.1em;
+}
+  form h3{
+    text-align: center;
+    margin-top: 0.7em;
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+form input{
+margin-top: 1em;
+    width: 100%;
+    background-color: #F7F8F9;
+    border: 0.4em solid #F7F8F9;
+    font-size: 0.7em;
+    color: #F7F8F9;
+}
+form h5{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 0.6em;
+}
+form button{
+    display: inline;
+    justify-content: center !important;
+    margin-top: 2em;
+
+}
+.up{
+    background-color: #FE5454;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 0.6em;
+    text-align: center;
+    margin-right: 2em;
+    padding: 0.6em 0.2em;
+    width: 40%;
+
+}
+.in{
+    font-size: 0.6em;
+    background-color: white;
+    color: #FE5454;
+    border: 1px solid #FE5454;
+    border-radius: 0.5em;
+    padding: 0.6em 0.2em;
+    width: 35%;
+}
+input[type=text]{
+    margin-top: 16px;
+}
+@media(min-width: 360px){
+    section .container{
+        display: grid;
+        grid-template-columns: 56% 44%;
+        
+        padding: 20px;
+        
+    }
+    form{
+        background-color: white;
+        padding: 2em; 
+        height: 57vh !important ;
+    
+      }
+    
+      img{
+        height: 57vh !important;
+    } 
+    form h4{
+        text-align: center;
+     margin-top: 1em;
+        font-size: 0.9em;
+        color:#FD5656 ;
+      }
+      form h5{
+        text-align: center;
+        margin-top: 3em;
+        font-size: 0.6em;
+    }
+    
+}
+
+@media(min-width: 375px){
+    
+    section {
+        width: 100%;
+        margin: auto;
+        background-color: #F7F8F9;
+    
+    }
+    section .container{
+        display: grid;
+        grid-template-columns: 55% 45%;
+        margin-top: 0em;
+        padding: 20px ;
+    } 
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.1em;
+        font-size: 0.6em;
+        margin-right: 1em;
+    
+        
+    } 
+    form{
+        background-color: white;
+        padding: 2em; 
+        height: 48vh !important  
+      }
+    
+      img{
+        height: 48vh !important;
+    } 
+    form h4{
+        text-align: center;
+     margin-top: 0em;
+        font-size: 0.9em;
+        color:#FD5656 ;
+      }  
+    form button{
+        display: inline;
+        justify-content: center !important;
+        margin-top: 1em;
+    
+    } 
+    .in{
+        font-size: 0.5em;
+        background-color: white;
+        color: #FE5454;
+        border: 1px solid #FE5454;
+        border-radius: 0.5em;
+        padding: 0.6em 0.2em;
+        width: 40%;
+}
+form h5{
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 0.6em;
+    line-height: 1.5em;
+}
+}
+@media(min-width: 411px){
+    form{
+        background-color: white;
+        padding: 2em; 
+        height: 45vh !important ;
+    
+      }
+    
+      img{
+        height: 45vh !important;
+    } 
+    form h4{
+        text-align: center;
+     margin-top: 0.5em;
+        font-size: 0.9em;
+        color:#FD5656 ;
+      }
+    
+}
+@media(min-width: 768px){
+    section {
+        width: 80%;
+        margin: auto;
+        background-color: #F7F8F9;
+        margin-top: 10em;
+        
+    
+    }
+    section .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 2.5em;
+        
+    
+        
+    }
+    form h4{
+        text-align: center;
+
+        font-size: 1.5em;
+        color:#FD5656 ;
+      }
+      form h3{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+    form{
+        background-color: white;
+        padding: 2em; 
+        height: 55vh !important  
+      }
+    
+      img{
+        height: 55vh !important;
+    }
+    
+    
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.4em;
+        font-size: 1em;
+        margin-right: 1em;
+    
+        
+    }
+    
+    form input{
+    margin-top: 1.3em;
+        width: 100%;
+        background-color: #F7F8F9;
+        border: 0.4em solid #F7F8F9;
+        font-size: 1em;
+        color: #F7F8F9;
+        padding: 0.7em;
+    }
+    form h5{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1em;
+    }
+    form button{
+        display: inline;
+        justify-content: center !important;
+        margin-top: 2em;
+    
+    }
+    .up{
+        background-color: #FE5454;
+        color: white;
+        border: none;
+        border-radius: 0.5em;
+        font-size: 0.9em;
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.6em 0.2em;
+        width: 40%;
+    
+    }
+    .in{
+        font-size: 0.9em;
+        background-color: white;
+        color: #FE5454;
+        border: 1px solid #FE5454;
+        border-radius: 0.5em;
+        padding: 0.6em 0.2em;
+        width: 35%;
+    }
+}
+
+@media(min-width: 1024px){
+    section {
+        width: 70%;
+        margin: auto;
+        background-color: #F7F8F9;
+        border-radius: 1em;
+        margin-top: 17em !important;
+    }
+    section .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 3em;
+        
+    }
+    form h4{
+        text-align: center;
+        margin-top: 2em !important;
+        font-size: 2em;
+        color:#FD5656 ;
+      }
+      form h3{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1.3em;
+        line-height: 1.4em;
+    }
+    form{
+        background-color: white;
+        padding: 2em; 
+        height: 50vh !important  
+      }
+    
+      img{
+        height: 50vh !important;
+    }
+    
+    
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.7em;
+        font-size: 1.3em;
+        margin-right: 1em;
+    
+        
+    }
+    
+    input[type=text]{
+        margin-top: 2em;
+    }
+
+    form input{
+    margin-top: 1.2em;
+        width: 100%;
+        background-color: #F7F8F9;
+        border: 0.4em solid #F7F8F9;
+        font-size: 1.1em;
+        color: #F7F8F9;
+        padding: 0.7em;
+    }
+    form h5{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1em;
+    }
+    form button{
+        display: inline;
+        justify-content: center !important;
+        margin-top: 2em;
+    
+    }
+    .up{
+        background-color: #FE5454;
+        color: white;
+        border: none;
+        border-radius: 0.5em;
+        font-size: 1em;
+        text-align: center;
+        margin-right: 2em;
+        padding: 0.6em 0.2em;
+        width: 40%;
+    
+    }
+    .in{
+        font-size: 1em;
+        background-color: white;
+        color: #FE5454;
+        border: 1px solid #FE5454;
+        border-radius: 0.5em;
+        padding: 0.6em 0.2em;
+        width: 40%;
+    }
+}
+
+
+
+@media(min-width: 1440px){
+    section {
+        width: 60%;
+        margin: auto;
+        background-color: #F7F8F9;
+        border-radius: 1em;
+        margin-top:8em !important;
+        padding: 1em;
+        margin-bottom: 4em;
+        
+
+    }
+    section .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    height: 80vh;
+    }
+    form{
+      background-color: white;
+      height: 70vh !important;
+        
+    }
+    form h4{
+        text-align: center;
+        margin-top: 1.3em;
+        font-size: 2em;
+        color:#FD5656 ;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        font-size: 1.5em;
+        
+    }
+    img{
+        height: 70vh !important;
+    }
+    form h3{
+        text-align: center;
+        margin-top: 1em;
+        font-size: 1.5em;
+    }
+    form input{
+        display: flex;
+        margin: auto;
+        width: 80%;
+        padding: 1.3em;
+        border-radius: 0.5em;
+        background-color: #F7F8F9;
+        border: 0.4em solid #F7F8F9;
+        font-size: 1em;
+        color: #F7F8F9;
+    }
+    form h5{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    form button{
+        display: inline;
+        justify-content: center !important;
+        width: 35%;
+        margin-top: 40px;
+        padding: 1.2em 1.7em;
+    
+    }
+    
+    .up{
+        background-color: #FE5454;
+        color: white;
+        border: none;
+        border-radius: 0.5em;
+        font-size: 0.8em;
+        text-align: center;
+        margin-right: 2em;
+        margin-left: 4em;
+        padding: 0.6em 0.2em;
+        width: 35%;
+    
+    }
+    .in{
+        font-size: 0.8em;
+        background-color: white;
+        color: #FE5454;
+        border: 1px solid #FE5454;
+        border-radius: 0.5em;
+        padding: 0.6em 0.2em;
+        width: 35%;
+    }
+    
+    
+    input[type=text]{
+        margin-top: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
